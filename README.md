@@ -55,7 +55,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-[Click here]() for REST API Usages.
+[Click here](https://go.postman.co/workspace/My-Workspace~120ec19f-7926-4dbd-8195-e0ff1b77072c/documentation/37753086-eae46de6-9b5a-432d-b519-f54dc91dc396?entity=folder-c800c8a9-a0bf-4b6f-8f7c-4c71f9967510) for REST API Usages.
 
 
 ### Additional Notes:
