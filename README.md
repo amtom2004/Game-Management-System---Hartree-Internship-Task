@@ -37,4 +37,32 @@ A Spring Boot application to manage an event like the Olympics, including athlet
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/game-management-system.git
-   cd game-management-system
+   cd game-management-system```
+
+2. **Configure the Database**
+    ```properties
+    spring.datasource.url=jdbc:postgresql://localhost:5432 olympics
+    spring.datasource.username=your_username
+    spring.datasource.password=your_password
+    spring.jpa.hibernate.ddl-auto=update```
+
+3. **Build the Application**
+```bash
+mvn clean install
+```
+4. **Running the Application**
+```bash
+mvn spring-boot:run
+```
+
+[Click here]() for REST API Usages.
+
+
+### Additional Notes:
+1. **Customization**: Customize the file to match your exact project structure and features.
+2. **Database Setup**: If you're using Docker for PostgreSQL, add instructions on setting up and running the PostgreSQL container.
+3. **API Documentation**: Consider using Swagger for better API documentation. You can include instructions for accessing Swagger UI if you integrate it.
+
+
+## Licence
+This project is licensed under the MIT Licence.
