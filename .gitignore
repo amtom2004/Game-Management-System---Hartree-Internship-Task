@@ -31,3 +31,46 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Maven/Gradle
+target/
+out/
+build/
+bin/
+.gradle/
+!gradle-wrapper.jar
+.idea/
+.iml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Other files
+*.class
+*.jar
+*.war
+*.ear
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# MacOS-specific files
+._*
+
+# Ignore temporary files
+*.tmp
+*.temp
