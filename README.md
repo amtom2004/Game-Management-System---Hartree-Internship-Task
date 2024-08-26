@@ -80,7 +80,7 @@ This endpoint allows you to register a new athlete.
       "country": {
           "id": 1
       }
-  }```
+  }
 
 ### 3. Get an Athlete by ID
 
